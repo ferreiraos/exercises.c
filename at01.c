@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &numero);
 
     if (numero >=1 && numero <= 12) {
-        const char *nomeDosMeses = "Janeiro, Fevereiro, Março, Abril, Maio, Junho, Julho, Agosto,Setembro, Novembro, Dezembro";
+        const char *nomeDosMeses = "Janeiro" , "Fevereiro" , "Março" , "Abril" , "Maio" , "Junho", "Julho" , "Agosto" , "Setembro" , "Novembro" , "Dezembro";
         const int diasDosMeses[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 , 31};   
 
         printf("Mês: %.*s\n", 9, nomeDosMeses + (numero - 1) * 9);
