@@ -11,7 +11,7 @@ int main() {
         const char *nomeDosMeses = "Janeiro" , "Fevereiro" , "Março" , "Abril" , "Maio" , "Junho", "Julho" , "Agosto" , "Setembro" , "Novembro" , "Dezembro";
         const int diasDosMeses[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30 , 31};   
 
-        printf("Mês: %.*s\n", 9, nomeDosMeses + (numero - 1) * 9);
+        printf("Mês: %s\n", nomeDosMeses[numero - 1]);
         printf("Possui %d dias.\n" , diasDosMeses[numero - 1]);
     } else { 
 
